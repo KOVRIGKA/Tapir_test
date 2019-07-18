@@ -59,10 +59,10 @@
                         Номер карты
                     </h2>
                     <div class="number">
-                        <input type="text" class="content__input content__input_number" placeholder="7419" required>
-                        <input type="text" class="content__input content__input_number" placeholder="9218" required>
-                        <input type="text" class="content__input content__input_number" placeholder="9412" required>
-                        <input type="text" class="content__input content__input_number" placeholder="5910" required>
+                        <input type="text" class="content__input content__input_number" placeholder="7419" required pattern="[0-9]{4}" onkeyup = 'this.value=parseInt(this.value) | 0'>
+                        <input type="text" class="content__input content__input_number" placeholder="9218" required pattern="[0-9]{4}" onkeyup = 'this.value=parseInt(this.value) | 0'>
+                        <input type="text" class="content__input content__input_number" placeholder="9412" required pattern="[0-9]{4}" onkeyup = 'this.value=parseInt(this.value) | 0'>
+                        <input type="text" class="content__input content__input_number" placeholder="5910" required pattern="[0-9]{4}" onkeyup = 'this.value=parseInt(this.value) | 0'>
                     </div>
                 </div>
                 <div class="content__block">
