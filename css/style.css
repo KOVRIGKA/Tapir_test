@@ -157,4 +157,7 @@ h1 {
     line-height: 21px;
     color: #1F2229; }
 
+.content__input:invalid {
+  border: 2px solid red; }
+
 /*# sourceMappingURL=style.css.map */
