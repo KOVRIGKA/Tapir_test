@@ -102,7 +102,7 @@
                         <h2 class="content__subtitle">
                             CVV
                         </h2>
-                        <input type="text" class="content__input content__input_cvv" placeholder="253" required>
+                        <input type="text" class="content__input content__input_cvv" placeholder="253" required pattern="[0-9]{3}" onkeyup = 'this.value=parseInt(this.value) | 0'>
                     </div>
                 </div>
                 <button class="content__btn">
