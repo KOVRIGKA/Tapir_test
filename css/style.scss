@@ -1,0 +1,214 @@
+body{
+    background-color: #101114;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{    
+    list-style-type: none;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+
+.container{
+    width: 710px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.nav{
+    width: 322px;
+
+    &__content{
+        width: 354px;
+        height: 524px;
+        background-color: white;
+        padding-left: 34px;
+        padding-top: 51px;
+        padding-bottom: 25px;
+    }
+
+    &__list{
+        padding-left: 0;
+    }
+
+    &__item{
+        height: 50px;
+        display: flex;
+        padding-left: 34px;
+
+        &:hover{
+            background: #101114;
+        }
+    }
+
+    &__bar{
+        background: #191C24;
+        height: 348px;
+        padding-top: 27px;
+    }
+
+    &__link{
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 20px;
+        color: white;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+.logo{
+    display: flex;
+    &__img{
+        margin: 57px auto;
+    }
+}
+
+.content{
+    &__title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 38px;
+        color: #1F2229;
+    }
+
+    &__desc{
+        margin-bottom: 22px;
+    }
+
+    &__desc, &__subtitle{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 18px;
+        color: #676666;
+    }
+
+    &__subtitle{
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #1F2229;
+    }
+
+    &__input{
+        background: #F0F0F0;
+        border-radius: 3px;
+        box-shadow: none;
+        border: none;
+        height: 39px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13.2px;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        color: #959595;
+
+        &_number{
+            width: 73.43px;
+            text-align: center;
+            margin-right: 6.57px;
+        }
+
+        &_name{
+            width: 308.69px;
+            padding-left: 14.14px;
+        }
+
+        &_cvv{
+            width: 73.43px;
+            text-align: center;
+        }
+    }
+
+    &__select{
+        background: #F0F0F0;
+        border-radius: 3px;
+        box-shadow: none;
+        border: none;
+        height: 39px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13.2px;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        color: #959595;
+        padding-left: 13.33px;
+        padding-right: 46.77px;
+        margin-right: 5px;
+        appearance:none;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        -ms-appearance:none;
+        background:url('/img/select_arrow.png') no-repeat right #F0F0F0;
+        
+    }
+
+    &__btn{
+        width: 322px;
+        height: 45px;
+        background: #005C9C;
+        border-radius: 3px;
+        border: none;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    }
+
+    &__block{
+        margin-bottom: 17px;
+
+        &_cvv{
+            width: 322.83px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 34.5px;
+        }
+    }
+}
+
+.info{
+    display: flex;
+
+    &__meaning{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__titles{
+        margin-right: 41.51px;
+    }
+
+    &__title{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        color: #676666;
+        margin-top: 0px;
+        margin-bottom: 0;
+    }
+
+    &__value{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        color: #1F2229;
+    }
+}
+
